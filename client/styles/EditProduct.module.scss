@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.formLabel {
+  /* Updated from 'label' */
+  margin-bottom: 10px;
+}
+
+.formInput {
+  /* Potentially new or updated from 'input' */
+  padding: 8px;
+  margin: 5px 0;
+  width: 300px;
+}
+
+.formButton {
+  /* Potentially new or updated from 'button' */
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

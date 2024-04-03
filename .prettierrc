@@ -1,0 +1,19 @@
+{
+  "printWidth": 80,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "importOrder": [
+    "antd/dist/antd.less",
+    "<THIRD_PARTY_MODULES>",
+    "^@.*",
+    "^[./].*(?<!\\.(css|scss|less))$",
+    "(css|scss|less)$",
+    "^~.*"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "endOfLine": "auto",
+  "semi": true
+}
